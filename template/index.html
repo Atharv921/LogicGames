@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIC GAMES</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='cssOfindex.css')}}">
+    
+</head>
+<body>
+    <div class="centre">
+        <nav>
+            <div class="img"></div>
+            <div class="h1"><h1>LOGIC GAMES</h1></div>
+        </nav>
+    </div>
+    <div class="grid">
+        <a href="{{ url_for('static',filename='/tower')}}" class="game game1">
+            <h2>Tower Of Hanoi</h2>
+        </a>
+        <a href="{{ url_for('static',filename='/arrange')}}" class="game game2">
+            <h2>Arranging Numbers</h2>
+        </a>
+    </div>
+</body>
+</html> 

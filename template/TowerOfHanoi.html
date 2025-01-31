@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TOWER OF HANOI</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='cssOfTower.css')}}">
+  </head>
+  <body> 
+    <div class="resize">
+      <div class="name">
+        <div><h1>TOWER OF HANOI</h1></div>
+      </div>
+      <div class="start">
+          <a href="http://localhost:5000/home" class="home1"></a>
+        <div class="time hidden">
+          <sub id="min">00</sub><sub>:</sub><sub id="sec">00</sub>
+        </div>
+        <div class="st tempSt" onclick="start()"><h2>Start</h2></div>
+      </div>
+      <div class="display">
+        <div class="tower">
+          <div class="disk t1"></div>
+          <div class="hori"></div>
+          <div class="vert" onclick="HTML_handler(1)"></div>
+        </div>
+        <div class="tower">
+          <div class="disk t2"></div>
+          <div class="hori"></div>
+          <div class="vert" onclick="HTML_handler(2)"></div>
+        </div>
+        <div class="tower">
+          <div class="disk t3"></div>
+          <div class="horiWin"></div>
+          <div class="vertWin" onclick="HTML_handler(3)"></div>
+        </div>
+      </div>
+      <div class="levels">
+        <div class="three level" onclick="setTheLevel(3)">Three</div>
+        <div class="four level decForLevel" onclick="setTheLevel(4)">Four</div>
+        <div class="five level" onclick="setTheLevel(5)">Five</div>
+        <div class="six level" onclick="setTheLevel(6)">Six</div>
+        <div class="seven level" onclick="setTheLevel(7)">Seven</div>
+        <div class="eight level" onclick="setTheLevel(8)">Eight</div>
+      </div>
+      <div class="view">
+        
+    </div>
+    <script src="{{ url_for('static',filename='script2.js')}}">
+     
+    </script>
+  </body>
+</html>

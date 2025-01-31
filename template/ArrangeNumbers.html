@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arrange Numbers</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='cssOfArrange.css')}}">
+    <script src="{{ url_for('static',filename='script.js')}}">
+      
+    </script>
+  </head>
+  <body>
+    <div class="resize">
+      <div class="name">
+        <div><h1>ARRANGE NUMBERS</h1></div>
+      </div>
+      <div class="struct">
+      </div>
+      <a href="http://localhost:5000/home" class="home"></a>
+      <div class="start">
+        <div class="next ne"><b>NEXT</b></div>
+        <div class="retry re"></div>
+        <div class="st" id="start" onclick="startEvent()">Start</div>
+        <div class="hh" id="h2"><sub id="min">00</sub><sub>:</sub><sub id="sec">00</sub></div> 
+      </div>
+      <div class="display"></div>
+    </div>
+  </body>
+</html>
