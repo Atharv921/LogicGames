@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+        body{
+            background-image: url("joshua-woroniecki-TspYRqQrErc-unsplash.jpg");
+            background-size: cover;
+            font-family: 'Press Start 2P', sans-serif;
+            /*color: #eee;
+            background-color: #222;*/
+        }
+        .centre{
+            display: flex;
+            justify-content: center;
+            width: 99vw;
+        }
+        nav{
+            display:flex;
+            justify-content: center;
+            font-size: xx-large;
+            color: white;
+            background-color: rgba(100, 100, 100, 0.63);
+            margin: -8px;
+            width: 99.7vw;
+            height: 85px;
+            border-radius: 0px 0px 40px 40px;
+            box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.767);
+        }
+        
+        .h1,.img{
+            cursor: pointer;
+            margin-top: -15px;
+        }
+        .img{
+            background-image: url("logo2.png");
+            background-size: cover;
+            width:100px;
+            height:100px;
+            margin-top: -4px;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto;
+            justify-content: center;
+            margin: 50px;
+            grid-column-gap: 50px ; 
+        }
+        .game1{
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            color: white;
+            text-shadow: -5px 7px rgb(0, 0, 0);
+            height: 300px;
+            width: 500px;
+            background-image: url("towerOfHanoi.gif");
+            background-size: cover;
+            border-radius: 10px 10px 10px 50px;
+            box-shadow: 10px 10px 10px 10px  rgba(0, 0, 0, 0.658);
+        }
+        .game2{
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            color: rgb(255, 30, 30);
+            text-shadow: -3px 5px rgb(0, 0, 0);
+            height: 300px;
+            width: 500px;
+            background-image: url("arrange.gif");
+            background-size:contain;
+            border-radius: 10px 10px 10px 50px;
+            box-shadow: 10px 10px 10px 10px  rgba(0, 0, 0, 0.658);
+        }
+        .game:hover{
+            opacity: 70%;
+        }
+        .game:active{
+            height: 295px;
+            width: 495px;
+            margin-left: 5px;
+            box-shadow: 10px 10px 10px 10px  rgba(0, 0, 0, 0.137);
+        }

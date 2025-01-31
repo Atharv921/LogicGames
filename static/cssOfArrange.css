@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+      body {
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.87);
+        font-family: "Press Start 2P", sans-serif;
+      }
+      .name {
+        display: flex;
+        position: absolute;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-shadow: 5px 5px black;
+      } 
+      .display {
+        height: 570px;
+        width: 1180px;
+        background-image: url("blue.jpg");
+        background-size: cover;
+        margin: 40px;
+        margin-bottom: 0px;
+        border-radius: 20px 20px 20px 20px;
+        border-bottom: 4px solid rgba(0, 0, 0, 0.9);
+        border-right: 4px solid rgba(0, 0, 0, 0.9);
+        box-shadow: -7px -7px 20px 3px black;
+      }
+      .struct {
+        position: absolute;  
+        height: 402px;
+        width: 416px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 500px;
+        margin-left: 495px;
+        background-image: url("vintage_bg.jpg");
+        border-radius: 30px 30px 30px 30px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        justify-content: center;
+        align-content: center;
+        border: 10px solid rgba(206, 170, 124, 0.952);
+      }
+      .numbers{
+          font-family:cursive;
+          font-size: 70px;
+          margin-top: 3px;
+          margin-bottom: 3px;
+          margin-left: 3px;
+          margin-right: 3px;
+          height: 104px;
+          width: 110px;
+          text-align: center;
+          line-height: 104px;
+          background-image: url("vintage_btn.jpg");
+          border-radius: 5px 5px 5px 5px;
+          border: 10px solid rgba(206, 170, 124, 0.952);
+          box-shadow: 0px 0px 2px 7px black;
+      }
+      #start{
+        background-color: rgba(26, 23, 216, 0.952);
+        border-radius: 30px 30px 30px 30px;
+        border: 5px solid rgba(211, 211, 211, 0.952); 
+        color: white;
+        width: 140px;
+        height: 70px;
+        text-shadow: 5px 5px black;
+        text-align: center;
+        line-height: 50px;
+        font-family: cursive;
+      }
+      #start:hover{
+        font-size: 48px;
+      }
+      .start{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        text-shadow: 1px 1px black;
+
+        margin-left: 720px;
+        margin-top: 200px;
+        cursor: pointer;
+      }
+      /*.numbers:active{
+        
+        grid-column-start: 3;
+        grid-column-end: 4;
+      }*/
+      .numbers:hover{
+          box-shadow:0px 0px 2px 7px rgba(71, 71, 71, 0.6);
+      }
+      .resize{
+        /*border: 10px solid rgba(206, 124, 124, 0.952);
+        */
+        /*position: fixed;
+        top: 15px; right: 0; bottom: 0; left: 0;
+        display:block;
+        align-content: center;*/
+        display: flex;
+        justify-content: center;
+      }
+
+      .hidden{
+        opacity: 0;
+      }
+
+      h3{
+        margin-top: -20px;
+        margin-left: -50px;
+      }
+      #h2{
+        font-family: cursive;
+        font-size:40px;
+        color: white;
+        height: 50px;
+        margin-top:150px;
+        margin-left:-120px;
+      }
+
+      .fix{
+        font-size: 20px;
+        color:white;
+        text-shadow: 5px 5px black;
+        position: relative;  
+      }
+      
+      .retry{
+        position: absolute;
+        background-image: url("retry.png");
+        background-size: cover;
+        width: 150px;
+        height: 50px;
+        margin-top: -400px;
+      }
+
+      .next{
+        position: absolute;
+        color: rgb(153, 254, 0);
+        font-size: 40px;
+        width: 150px;
+        height: 50px;
+        margin-top: -400px;
+        text-shadow: 7px 7px black;
+      }
+      
+      .next:active{
+        font-size: 35px;
+      }
+
+      .home{
+        background-image: url("home.png");
+        background-size: cover;
+        position: absolute;
+        font-size: 40px;
+        width:100px;
+        height:100px;
+        margin-left: -630px;
+        margin-top: 100px;
+        cursor: pointer;
+        border-radius: 55px 70px 70px 55px;
+      }
+      .home:hover{
+        width:110px;
+        height: 110px;
+      }

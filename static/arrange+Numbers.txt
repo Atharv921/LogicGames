@@ -1,0 +1,10 @@
+Thus, if a board has an odd number of inversions, it is unsolvable because the goal board has an even number (zero) of inversions. It turns out that the converse is also true: if a board has an even number of inversions, then it is solvable.
+
+
+It is not possible to solve an instance of 8 puzzle if number of inversions is odd in the input state. In the examples given in above figure, the first example has 10 inversions, therefore solvable. The second example has 11 inversions, therefore unsolvable.
+
+
+https://www.geeksforgeeks.org/check-instance-8-puzzle-solvable/
+
+
+https://www.cs.princeton.edu/courses/archive/spring21/cos226/assignments/8puzzle/specification.php
